@@ -20,7 +20,9 @@
     "**/node_modules",
     "**/bower_components",
     "**/3rdparty",
-    "**/gulpfile.js"
+    "**/gulpfile.js",
+    "jquery.datetimepicker.css",
+    "jquery.datetimepicker.js"
   ],
   "keywords": [
     "calendar",
@@ -41,7 +43,9 @@
     "touch"
   ],
   "dependencies": {
-    "jquery": ">= 1.7.2",
+    "jquery": ">= 1.7.2"
+  },
+  "devDependencies": {
     "jquery-mousewheel": "~3.1.12"
   },
   "authors": [
