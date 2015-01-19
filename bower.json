@@ -1,50 +1,59 @@
 {
-	"name":"datetimepicker",
-	"version":"2.4.1",
-	"main": [
-		"jquery.datetimepicker.js",
-		"jquery.datetimepicker.css"
-	],
-	"ignore": [
-		"**/screen",
-		"**/datetimepicker.jquery.json",
-		"**/*.png",
-		"**/*.txt",
-		"**/*.md",
-		"**/*.html",
-		"**/*.tpl",
-		"**/jquery.js"
-	  ],
-	"keywords": [
-		"calendar",
-		"date",
-		"time",
-		"form",
-		"datetime",
-		"datepicker",
-		"timepicker",
-		"datetimepicker",
-		"validation",
-		"ui",
-		"scroller",
-		"picker",
-		"i18n",
-		"input",
-		"jquery",
-		"touch"
-	],
-	"dependencies": {
-    "jquery": ">= 1.7.2"
+  "name": "datetimepicker",
+  "version": "2.4.2",
+  "main": [
+    "dist/jquery.datetimepicker.min.js",
+    "dist/jquery.datetimepicker.min.css",
+    "dist/jquery.datetimepicker.js",
+    "dist/jquery.datetimepicker.css"
+  ],
+  "ignore": [
+    "**/screen",
+    "**/datetimepicker.jquery.json",
+    "**/*.png",
+    "**/*.txt",
+    "**/*.md",
+    "**/*.html",
+    "**/*.tpl",
+    "**/jquery.js",
+    "**/gulpfile.js",
+    "**/node_modules",
+    "**/bower_components",
+    "**/3rdparty",
+    "**/gulpfile.js"
+  ],
+  "keywords": [
+    "calendar",
+    "date",
+    "time",
+    "form",
+    "datetime",
+    "datepicker",
+    "timepicker",
+    "datetimepicker",
+    "validation",
+    "ui",
+    "scroller",
+    "picker",
+    "i18n",
+    "input",
+    "jquery",
+    "touch"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.7.2",
+    "jquery-mousewheel": "~3.1.12"
   },
-	"authors": [
-		{
-			"name": 	"Chupurnov Valeriy",
-			"email": 	"chupurnov@gmail.com",
-			"homepage": 		"http://xdsoft.net/contacts.html"
+  "authors": [
+    {
+      "name": "Chupurnov Valeriy",
+      "email": "chupurnov@gmail.com",
+      "homepage": "http://xdsoft.net/contacts.html"
     }
-	],
-	"homepage":"http://xdsoft.net/jqplugins/datetimepicker/",
-	"repository": {
-		"type": "git", "url": "git://github.com:xdan/datetimepicker.git"
-	}
+  ],
+  "homepage": "http://xdsoft.net/jqplugins/datetimepicker/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:xdan/datetimepicker.git"
+  }
 }
